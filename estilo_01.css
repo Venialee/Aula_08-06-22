@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    line-height: 1.6;
+    background: #CC7766 url('media/img/noise.png');
+}
+
+header {
+    color: blue;
+    background-color: white;
+    padding: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.local_1 {
+    border-color: #CCC #999 #999 #CCC;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.local_2 {
+    border-color: #CCC #999 #999 #CCC;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.local_3 {
+    border-color: #CCC #999 #999 #CCC;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+a {
+    color: #2C88A7;
+    text-decoration: none;
+}
+
+a:hover { // focus, visited, active
+    color: white;
+    background-color: black;
+}

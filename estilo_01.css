@@ -1,19 +1,39 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     line-height: 1.6;
-    background: #CC7766 url('media/img/noise.png');
+    background: #dbdbdb url('media/img/noise.png');
 }
 
-footer {
-    text-align: center;
-    font-size: 12px;
+header {
+	padding: 10px;
+    color: white;
+	text-align: center;
+    background-image: url(media/img/cenario.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+}
+
+footer{
+	width: 100%;
+	color: white;
+	height: 50;
+	position: absolute;
+	bottom: -5;
+	left: 0;
+	text-align: center;
+	padding: 10px;
+	background: linear-gradient(90deg, rgba(44,136,167,1) 35%, #005b96 100%);
 }
 
 aside {
     float: right;
     width: 260px;
-    background-color: rgb(210, 210, 210, 0.3);
     padding: 10px;
+    color: white;
+    border: 10px solid #dbdbdb;
+    background: rgb(44,136,167);
+    background: linear-gradient(90deg, #2c88a7 35%, rgba(0,91,150,1) 100%);
 }
 
 article {
@@ -21,64 +41,39 @@ article {
     width: 660px;
 }
 
-header {
-    background-color: white;
-    border: 1px solid black;
-    padding-left: 600px;
-}
-
-#brasao {
-    height: 150px;
-    width: 150px;
-    float: left;
-}
-
-#titulo_inicial {
-    padding: 20px;
-    padding-top: 40px;
-    font-size: 24px;
-}
-
 #container {
     margin: 0 auto;
     width: 960px;
 }
 
-.local_1 {
-    border-color: #CCC #999 #999 #CCC;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: rgb(210, 210, 210, 0.3);
+#h_cont {
+    border: 1px solid black;
 }
 
-.local_2 {
-    border-color: #CCC #999 #999 #CCC;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: rgb(210, 210, 210, 0.3);
+.logo{
 }
 
-.local_3 {
+.p_title{
+    color: linear-gradient(90deg, rgba(44,136,167,1) 35%, rgba(0,91,150,1) 100%);;
+    margin: 10px;
+}
+
+.local{
+    background-color: white;
     border-color: #CCC #999 #999 #CCC;
     border-style: solid;
     border-width: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px;
-    background-color: rgb(210, 210, 210, 0.3);
 }
 
 .lugar_img {
     height: 200px;
-    border: 1px solid black;
+    border: 1px solid #2C88A7;
     float: left;
     margin: 10px 10px 0;
     padding: 2px;
 }
-
 
 .notas_h3 {
     font-size: 14px;
@@ -96,9 +91,4 @@ header {
 a {
     color: #2C88A7;
     text-decoration: none;
-}
-
-a:hover {
-    color: white;
-    background-color: black;
 }

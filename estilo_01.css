@@ -1,14 +1,14 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     line-height: 1.6;
-    background: #dbdbdb url('media/img/noise.png');
+    background: #dbdbdb url('noise.png');
 }
 
 header {
 	padding: 10px;
     color: white;
 	text-align: center;
-    background-image: url(media/img/cenario.jpg);
+    background-image: url(cenario.jpg);
     background-repeat: no-repeat;
     background-position: center center fixed;
     background-size: cover;
@@ -44,10 +44,11 @@ article {
 #container {
     margin: 0 auto;
     width: 960px;
+    margin-top: 10px;
 }
 
-#h_cont {
-    border: 1px solid black;
+#links {
+    background-color: white;
 }
 
 .logo{
